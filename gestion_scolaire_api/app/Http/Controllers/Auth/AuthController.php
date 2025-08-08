@@ -20,14 +20,14 @@ class AuthController extends Controller
     {
         // Juste pour la première fois : assigner la permission "all" à l'utilisateur 1
     //     $admin = \App\Models\User::find(1);
-    //     if ($admin && !$admin->hasPermission('all')) {
+    //     if ($admin && !$admin->hasPermission('view_only')) {
     //         // Si la permission "all" n'existe pas encore, on la crée
     //         $permission = \App\Models\Permission::firstOrCreate(
-    //             ['name' => 'all'],
-    //             ['display_name' => 'All Permissions', 'description' => 'Accès total à toutes les fonctionnalités']
+    //             ['name' => 'view_only'],
+    //             ['display_name' => 'view_only seuelement', 'description' => 'Accès pour voir']
     //         );
     //     }
-    //     // Attacher directement la permission à l'utilisateur
+    // //     // Attacher directement la permission à l'utilisateur
     // $admin->permissions()->syncWithoutDetaching([$permission->id]);
     
         // Validation des entrées
