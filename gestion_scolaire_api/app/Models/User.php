@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -10,7 +9,7 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
 use Laratrust\Contracts\LaratrustUser;
 use Laratrust\Traits\HasRolesAndPermissions;
 
-class User extends Authenticatable implements JWTSubject,LaratrustUser
+class User extends Authenticatable implements JWTSubject, LaratrustUser
 {
     use HasFactory, Notifiable, HasRolesAndPermissions;
 
@@ -23,7 +22,6 @@ class User extends Authenticatable implements JWTSubject,LaratrustUser
         'password',
         'role'
     ];
-    
 
     protected $hidden = [
         'password',
@@ -44,6 +42,11 @@ class User extends Authenticatable implements JWTSubject,LaratrustUser
         return [];
     }
 
-
-    
+    /**
+     * Retourne toutes les permissions de l'utilisateur (directes + héritées)
+     */
+    public function allUserPermissions()
+    {
+        return $this->allPermissions()->pluck('name'); // Laratrust fournit allPermissions()
+    }
 }
