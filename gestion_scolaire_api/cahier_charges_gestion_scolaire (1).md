@@ -273,104 +273,123 @@ Le système couvre trois départements principaux :
 
 ---
 
-## 5. Exigences Non-Fonctionnelles
+## 5. Phases de Développement
 
-### 5.1 Performance
-- Temps de réponse ≤ 2 secondes
-- Support de 500 utilisateurs simultanés
-- Disponibilité 99.5%
-
-### 5.2 Sécurité
-- Chiffrement des données sensibles
-- Authentification multi-facteurs (option)
-- Conformité RGPD
-- Sauvegarde quotidienne automatique
-
-### 5.3 Ergonomie
-- Interface intuitive et moderne
-- Responsive design
-- Accessibilité (WCAG 2.1 AA)
-- Support multilingue (Français prioritaire)
-
----
-
-## 6. Phases de Développement
-
-### Phase 1 : Core Scolaire (8-10 semaines)
+### Phase 1 : Core Scolaire
 - Modules 1-6 : Inscriptions, Élèves, Tuteurs, Badges, Notes, Classes
 - Authentification et base architecture
 
-### Phase 2 : Planification Pédagogique (6-8 semaines)
+### Phase 2 : Planification Pédagogique
 - Modules 7-11 : Niveaux, Matières, Cours, Emplois du temps, Enseignants
 
-### Phase 3 : Comptabilité (6-8 semaines)
+### Phase 3 : Comptabilité
 - Modules 12-16 : Frais, Paiements, Caisses, Dépenses, Reçus
 
-### Phase 4 : RH et Finalisation (4-6 semaines)
+### Phase 4 : RH et Finalisation
 - Module 17 : Gestion des personnels
 - Tests d'intégration et optimisations
 - Formation et déploiement
 
 ---
 
-## 7. Livrables Attendus
+## 6. Livrables Attendus
 
-### 7.1 Développement
+### 6.1 Développement
 - Code source documenté
 - Base de données structurée
 - API REST complète
 - Interface utilisateur responsive
 
-### 7.2 Documentation
+### 6.2 Documentation
 - Manuel utilisateur
 - Documentation technique
 - Guide d'installation
 - Procédures de maintenance
 
-### 7.3 Formation et Support
+### 6.3 Formation et Support
 - Sessions de formation utilisateurs
 - Support technique 6 mois
 - Maintenance corrective 1 an
 
 ---
 
-## 8. Budget et Planning
+## 7. Offres d'Abonnement
 
-### 8.1 Estimation Budgétaire
-*À définir selon les spécifications détaillées et le périmètre final*
+### 7.1 Formule STARTER
+**Nombre d'élèves : 0 - 200**
+- **Tarif : 250.000 GNF/mois**
+- Tous les modules inclus
+- Support technique par email
+- Sauvegarde quotidienne
+- 2 utilisateurs administrateurs
 
-### 8.2 Planning Prévisionnel
-- **Durée totale estimée** : 24-30 semaines
-- **Ressources requises** : 
-  - 1 Chef de projet
-  - 2-3 Développeurs Full-Stack
-  - 1 Designer UX/UI
-  - 1 Testeur QA
+### 7.2 Formule STANDARD  
+**Nombre d'élèves : 201 - 500**
+- **Tarif : 450.000 GNF/mois**
+- Tous les modules inclus
+- Support technique prioritaire
+- Sauvegarde quotidienne + archivage
+- 5 utilisateurs administrateurs
+- Formation en ligne incluse
+
+### 7.3 Formule PREMIUM
+**Nombre d'élèves : 501 - 1000**
+- **Tarif : 750.000 GNF/mois**
+- Tous les modules inclus
+- Support technique dédié (téléphone)
+- Sauvegarde multiple + récupération d'urgence
+- 10 utilisateurs administrateurs
+- Formation sur site incluse
+- Rapports personnalisés
+
+### 7.4 Formule ENTERPRISE
+**Nombre d'élèves : 1000+**
+- **Tarif : Sur devis (à partir de 1.200.000 GNF/mois)**
+- Tous les modules inclus
+- Support 24/7 dédié
+- Infrastructure dédiée
+- Utilisateurs illimités
+- Formations multiples
+- Développements sur mesure
+- Intégrations tierces
+
+### 7.5 Frais d'installation et mise en service
+- **Installation initiale : 500.000 GNF** (toutes formules)
+- **Migration de données existantes : 300.000 GNF** (optionnel)
+- **Formation supplémentaire sur site : 200.000 GNF/jour**
+
+### 7.6 Options additionnelles
+- **Utilisateurs supplémentaires : 50.000 GNF/mois/utilisateur**
+- **Sauvegarde externe sécurisée : 100.000 GNF/mois**
+- **Module SMS parents : 150.000 GNF/mois**
+- **Application mobile : 300.000 GNF/mois**
+
+*Tarifs exprimés en Francs Guinéens (GNF) - Valables pour 2025*
 
 ---
 
-## 9. Critères d'Acceptation
+## 8. Critères d'Acceptation
 
-### 9.1 Fonctionnels
+### 8.1 Fonctionnels
 - Tous les modules opérationnels selon spécifications
 - Tests utilisateurs validés
 - Performance conforme aux exigences
 
-### 9.2 Techniques
+### 8.2 Techniques
 - Code documenté et versionné
 - Sécurité validée par audit
 - Déploiement réussi en production
 
 ---
 
-## 10. Maintenance et Évolutions
+## 9. Maintenance et Évolutions
 
-### 10.1 Maintenance
+### 9.1 Maintenance
 - Corrections de bugs
 - Mises à jour sécurité
 - Optimisations performance
 
-### 10.2 Évolutions Possibles
+### 9.2 Évolutions Possibles
 - Module de communication parents
 - Application mobile
 - Intégrations tierces (comptabilité externe)
