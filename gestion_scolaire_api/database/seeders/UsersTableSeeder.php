@@ -14,7 +14,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run(): void
     {
-          User::create([
+        User::create([
             'name' => 'admin',
             'prenom' => 'admin',
             'username' => 'admin',
@@ -68,14 +68,14 @@ class UsersTableSeeder extends Seeder
             'role' => 'Enseignant'
         ]);
 
-        User::create([
-            'name' => 'Sow',
-            'name' => 'Mariame',
-            'username' => 'visiteur',
-            'email' => 'visiteur@ecolegestion.com',
-            'password' => Hash::make('visiteur123'),
-            'role' => 'Visiteur'
-        ]);
+        // User::create([
+        //     'name' => 'Sow',
+        //     'name' => 'Mariame',
+        //     'username' => 'visiteur',
+        //     'email' => 'visiteur@ecolegestion.com',
+        //     'password' => Hash::make('visiteur123'),
+        //     'role' => 'Visiteur'
+        // ]);
     }
 
 
